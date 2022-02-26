@@ -1,0 +1,22 @@
+#include<pic.h>
+void delay();
+
+void main()
+{
+
+TRISC=0x80;
+TXSTA=0x24;
+RCSTA=0x90;
+SPBRG=129;
+TXREG='H';
+while(1)
+}
+	  
+
+
+
+
+
+
+
+
